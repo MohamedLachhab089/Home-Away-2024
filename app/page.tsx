@@ -5,6 +5,7 @@ import EmptyState from "./components/EmptyState";
 import getListings, { IListingsParams } from "./actions/getListings";
 import ListingCard from "./components/listings/ListingCard";
 import getCurrentUser from "./actions/getCurrentUser";
+import Footer from "./Footer";
 
 interface HomeProps {
   searchParams: IListingsParams;
@@ -37,6 +38,7 @@ const Home = async ({ searchParams }: HomeProps) => {
         })}
       </div>
       <br /><br /><br />
+      <Footer />
     </Container>
     // </ClientOnly>
   );
