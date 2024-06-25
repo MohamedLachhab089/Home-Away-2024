@@ -11,7 +11,7 @@ body,
 body {
   margin: 0;
   padding: 0;
-  zoom: 0.9; /* Zoom à 80% */
+  zoom: 0.8; /* Zoom à 80% */
 }
 
 .login-form {
