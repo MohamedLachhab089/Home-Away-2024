@@ -14,8 +14,8 @@ import SearchModal from "./components/modals/SearchModal";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Airbnb",
-  description: "Airbnb clone",
+  title: "Home Away",
+  description: "HA clone",
 };
 
 const font = Nunito({
